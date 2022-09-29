@@ -1,5 +1,5 @@
 window.onload =    function displayCon() {
-    document.querySelector(".container2-wrap").style.display = "none"
+  
     AOS.init({
         duration: 1500,
     })
@@ -8,7 +8,7 @@ window.onload =    function displayCon() {
     {
     document.querySelector(".container1-wrap").style.display = "none";
     document.querySelector(".container2-wrap").style.display = "block"
-    }, 5000
+    }, 20000
 )
 }
 
@@ -27,7 +27,7 @@ function showSlides() {
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
 console.log(slideIndex)
-  setTimeout(showSlides, 2000);
+  setTimeout(showSlides, 20000);
    // Change image every 2 seconds
 
 }
