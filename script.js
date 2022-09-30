@@ -8,7 +8,7 @@ window.onload =    function displayCon() {
     {
     document.querySelector(".container1-wrap").style.display = "none";
     document.querySelector(".container2-wrap").style.display = "block"
-    }, 2000
+    }, 4000
 )
 }
 

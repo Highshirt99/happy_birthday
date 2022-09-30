@@ -12,7 +12,7 @@ body{
 
 
 .cont{
-    background-color: whitesmoke;
+    background-color: white;
     width: fit-content;
     border-radius: 15px;
     margin-bottom: 5px;
@@ -26,6 +26,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 min-height: 100vh;
+background-color: blue;
 }
 
 h1{
@@ -33,7 +34,7 @@ h1{
     border: 1px solid grey;
     border-radius: 15px;
     font-size: 1em;
-    color: blueviolet;
+    color: blue;
 }
 
 .container2-wrap{
@@ -47,7 +48,7 @@ h1{
 }
 
 h3{
-    color: blueviolet;
+    color: royalblue;
     text-transform: uppercase;
     text-align: center;
     border-bottom: 3px solid black;
@@ -57,7 +58,7 @@ h3{
 }
 
 .img-item{
-    background-color: blueviolet;
+    background-color: royalblue;
     width: 350px;
     height: 350px;
     display: none;
@@ -67,7 +68,6 @@ h3{
     margin: 10px auto;
 
 }
-
 
 
 @keyframes fade{
@@ -87,6 +87,7 @@ margin-top: 130px;
 white-space: wrap;
 text-align: center;
 margin: 15px;
+color: blue;
 }
 
 @media screen and (max-width: 500px) {
