@@ -24,7 +24,7 @@ body{
     height: 300px;
     z-index: 10000;
     position: absolute;
-    top: 50vh;
+    margin: 0 auto;
     background-color: rgb(240, 231, 231);
 
 }
@@ -46,7 +46,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-min-height: 100vh;
+max-height: 100vh;
 position: relative;
 overflow: hidden;
 
